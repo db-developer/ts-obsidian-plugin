@@ -164,4 +164,4 @@ Extends **ObsidianDataPersistence** and adds a structured settings lifecycle:
 - `saveSettings(): Promise<void>` – Persist current settings.
 - `onExternalSettingsChange(): Promise<void>` – Reload settings when external changes are detected.
 
-[TOP](#obsidian-log-plugin) [CHANGELOG](CHANGELOG.md) [LICENSE](LICENSE) [ROADMAP](ROADMAP.md)
+[TOP](#ts-obsidian-plugin) [CHANGELOG](CHANGELOG.md) [LICENSE](LICENSE) [ROADMAP](ROADMAP.md)

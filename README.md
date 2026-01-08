@@ -1,3 +1,4 @@
+[![npm version](https://img.shields.io/npm/v/ts-obsidian-plugin?color=blue)](https://www.npmjs.com/package/ts-obsidian-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![jsdoc](https://img.shields.io/static/v1?label=jsdoc&message=%20api%20&color=blue)](https://jsdoc.app/)
 ![Build & Test](https://github.com/db-developer/ts-obsidian-plugin/actions/workflows/ci.yml/badge.svg)

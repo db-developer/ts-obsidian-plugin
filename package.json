@@ -1,7 +1,7 @@
 {
   "name": "ts-obsidian-plugin",
   "version": "1.0.0",
-  "description": "Unified console logging for obsidian plugins",
+  "description": "Unified abstraction for obsidian plugins",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",
   "main": "index.js",

@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![jsdoc](https://img.shields.io/static/v1?label=jsdoc&message=%20api%20&color=blue)](https://jsdoc.app/)
-[Build & Test](https://github.com/<USERNAME>/<REPO>/actions/workflows/ci.yml/badge.svg)
+[Build & Test](https://github.com/db-developer/ts-obsidian-plugin/actions/workflows/ci.yml/badge.svg)
 
 [BOTTOM](#typeScript-interfaces) [CHANGELOG](CHANGELOG.md) [LICENSE](LICENSE) [ROADMAP](ROADMAP.md)
 

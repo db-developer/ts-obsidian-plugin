@@ -84,7 +84,7 @@ export interface ObsidianDataPersistence {
  * settings object.
  */
 export interface PluginWithSettings<
-  TSettings extends Record<string, unknown>
+  TSettings extends object
 > extends ObsidianDataPersistence {
   /**
    * Provides read-only access to the plugin’s current in-memory settings object.

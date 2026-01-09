@@ -1,6 +1,6 @@
 {
   "name": "ts-obsidian-plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Unified abstraction for obsidian plugins",
   "author": "Dirk Brenckmann <db.developer@gmx.de>",
   "license": "MIT",

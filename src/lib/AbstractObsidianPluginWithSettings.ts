@@ -28,9 +28,7 @@ import { deepPurge                   } from "./internals";
  * @typeParam TSettings - The concrete, JSON-serializable shape of the plugin’s
  * settings object.
  */
-export abstract class AbstractObsidianPluginWithSettings<
-  TSettings extends Record<string, unknown>
->
+export abstract class AbstractObsidianPluginWithSettings<TSettings extends object>
   extends Plugin
   implements PluginWithSettings<TSettings>, ObsidianDataPersistence
 {

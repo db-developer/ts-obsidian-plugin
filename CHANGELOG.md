@@ -18,6 +18,12 @@ All notable changes to this project will be documented in this file.
 
 - No fixes yet
 
+## [1.1.0] - 2026-01-08
+
+### Changed
+
+- Changed settings type from T extends Record<string, unknown> to T extends object for broader compatibility
+
 ## [1.0.0] - 2026-01-08
 
 - Initial version

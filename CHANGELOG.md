@@ -18,7 +18,13 @@ All notable changes to this project will be documented in this file.
 
 - No fixes yet
 
-## [1.1.0] - 2026-01-08
+## [1.1.1] - 2026-01-09
+
+### Fixed
+
+- Settings must not be Readonly to allow merging persisted data
+
+## [1.1.0] - 2026-01-09
 
 ### Changed
 

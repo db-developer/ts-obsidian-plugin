@@ -63,18 +63,19 @@ export abstract class AbstractObsidianPluginWithSettings<TSettings extends objec
   }
 
   /**
-   * Provides read-only access to the current in-memory settings object.
+   * Provides access to the current in-memory settings object.
    *
-   * The returned object represents the live settings state used by the plugin.
-   * While individual properties may be mutated internally as part of loading,
-   * merging, or migration, the object reference itself remains unchanged.
+   * The returned object reference itself is immutable, meaning it cannot
+   * be replaced from outside the plugin. However, individual properties
+   * of the settings object can be modified.
    *
    * Consumers should assume that settings are only fully initialized after
    * {@link loadSettings} has completed.
    *
-   * @returns A read-only view of the current settings object.
+   * @returns The current settings object. Its properties are mutable,
+   *          but the object reference cannot be replaced externally.
    */
-  get settings(): Readonly<TSettings> {
+  get settings(): TSettings {
     return this._settings;
   }
 

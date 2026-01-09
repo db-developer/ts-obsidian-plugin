@@ -52,6 +52,25 @@ describe(
           (instance as any).settings = { foo: "baz" };
         }).toThrow();
       });
+
+      test("Properties of settings can be modified", () => {
+        const mockApp = {} as App;
+        const mockManifest = { id: "test-plugin", name: "Test", version: "1.0.0" } as PluginManifest;
+
+        const instance = new TestPlugin(mockApp, mockManifest);
+
+        // Initialize settings manually for the test
+        (instance as any)._settings = instance.getDefaultSettings();
+
+        // Initial value
+        expect(instance.settings.foo).toBe("bar");
+
+        // Modify property
+        instance.settings.foo = "baz";
+
+        // Check that change is reflected
+        expect(instance.settings.foo).toBe("baz");
+      });
     });
   }
 );
